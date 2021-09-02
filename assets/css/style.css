@@ -1,6 +1,7 @@
 * {
     margin: 2px;
     box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
 .flex-header {
     background-color: #283747;
@@ -29,7 +31,7 @@ body {
     font-weight: bold;
     font-size: 36px;
     color: slategray;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(	112, 128, 144, .3)
 }
 
 .flex-header a {
@@ -57,7 +59,7 @@ body {
 }
 
 .flex-header nav ul li a:hover {
-    background: slategray;
+    background: silver;
     color: black;
     border-radius: 15px;
     text-shadow: none;
@@ -68,20 +70,60 @@ body {
     flex: 1;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .flex-nav {
     background-color: #283747;
-    padding-top: 3rem;
     flex: 3 3 5rem;
     color: slategray;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.flex-nav h2 {
+    padding: 6rem 5rem 3rem 4rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .flex-article {
     background-color: #283747;
     padding-top: 3rem;
-    flex: 3 3 ;
+    flex: 3 3 5rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.flex-article h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.flex-article h3 {
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.flex-article h4 {
+    font-size: 10px;
+
+}
+
+.flex-article p {
+    font-size: 20px;
+}
+
+.flex-article img {
+    width: 100%;
+    display: block;
 }
 
 .flex-footer {

@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christian Beam's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Christian Beam's Portfolio</title>
+<link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
 <header class="flex-header">
-<h1>My Portfolio</h1>
-<nav>
+    <h1>My Portfolio</h1>
+    <nav>
     <!-- Unordered list element -->
     <ul>
         <li>
@@ -26,57 +28,78 @@
             <a href="#">Fourth List Element</a>
         </li>
     </ul>
-</nav>
-    </header>
-    <main class="flex-main">
+    </nav>
+</header>
+<main class="flex-main">
     <section class="flex-nav">
+        
         <h2>About Me</h2>
         <h2>My Work</h2>
         <h2>Contact Me</h2>
     </section>
+
+    <!-- I made this section tag with class content to flex wrap vertically for about me info, works, and contact me -->
+    <section class="content">
+        <!-- Added this about me div tag -->
+        <div class="flex-article">
+            <section class="about-me">
+            <h2>Christian Beam-Developer</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quis velit consequatur necessitatibus, 
+                voluptate a quae quisquam nemo laboriosam similique provident, corrupti soluta fugiat numquam facere aut dignissimos libero id.</p>
+            </section>
+        </div>
+        <!-- The works content below put under one article tag and gave them individual div tags -->
     <article class="flex-article">
-        <a href="https://beamchristian.github.io/run-buddy/" title="Run Buddy">
-            <img src="https://via.placeholder.com/100"> </a>
-        <h3>Run Buddy</h3>
-        <h4>HTML/CSS</h4>
-        <p>This is Run Buddy, a website to link potential customers to personal trainers.</p>
+        <div>
+            <h3>Run Buddy</h3>
+            <h4>HTML/CSS</h4>
+            <p>This is Run Buddy, a website to link potential customers to personal trainers.</p>
+            <a href="https://beamchristian.github.io/run-buddy/" title="Run Buddy">
+                <img src="https://via.placeholder.com/100"> </a>
+        </div>
+        ​
+        <div>
+            <h3>Robot-gladiators</h3>
+            <h4>JAVASCRIPT</h4>
+            <p>This is Robot Gladiators, a minigame where you battle multiple robots</p>
+            <a href="https://beamchristian.github.io/run-buddy/" title="Run Buddy">
+                <img src="https://via.placeholder.com/100"> </a>
+        </div>
+        ​
+        <div>
+            <h3>RPG Project</h3>
+            <h4>C#</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <a href="https://beamchristian.github.io/run-buddy/" title="Run Buddy">
+                <img src="https://via.placeholder.com/100"> </a>
+        </div>
+        ​
+        <div>
+            <h3>Project 4</h3>
+            <h4>JAVASCRIPT</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                <a href="https://beamchristian.github.io/run-buddy/" title="Run Buddy">
+                    <img src="https://via.placeholder.com/100"> </a>
+        </div>
     </article>
 
-    <article class="flex-article">
-        <a href="https://beamchristian.github.io/run-buddy/" title="Run Buddy">
-            <img src="https://via.placeholder.com/100"> </a>
-        <h3>Robot-gladiators</h3>
-        <h4>JAVASCRIPT</h4>
-        <p>This is Robot Gladiators, a minigame where you battle multiple robots</p>
-    </article>
-
-    <article class="flex-article">
-        <a href="https://beamchristian.github.io/run-buddy/" title="Run Buddy">
-            <img src="https://via.placeholder.com/100"> </a>
-        <h3>RPG Project</h3>
-        <h4>C#</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-    </article>
-
-    <article class="flex-article">
-        <a href="https://beamchristian.github.io/run-buddy/" title="Run Buddy">
-            <img src="https://via.placeholder.com/100"> </a>
-        <h3>Project 4</h3>
-        <h4>JAVASCRIPT</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-    </article>
     <article class="flex-article">
         <section class="contact-me">
             <h2>Contact Me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus qui.
-                Quae dicta nesciunt autem similique illum quas, voluptatum molestiae repellat veritatis non dolore
+                Quae dicta nesciunt autem similique illum quas, voluptatum molestiae repellat veritatis non
+                dolore
                 totam. Doloribus quis enim eius labore.</p>
         </section>
     </article>
-    </main>
-    <footer class="flex-footer">
-        <h2>Made By Christian Beam</h2>
-    </footer>
+</section>
+</main>
+<!-- My changes ends. -->
+​
+<footer class="flex-footer">
+    <h2>Made By Christian Beam</h2>
+</footer>
 </body>
+​
 
 </html>

@@ -72,6 +72,10 @@ body {
     background-color: #283747;
     padding-top: 3rem;
     flex: 3 3 5rem;
+    color: slategray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .flex-article {

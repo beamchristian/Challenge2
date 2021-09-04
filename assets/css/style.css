@@ -99,6 +99,20 @@ body {
     color: black;
 }
 
+/* .flex-article div:nth-child(1) {
+    border: 5px solid black;
+} */
+
+.flex-article img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.flex-article img:hover {
+    opacity: .5;
+}
+
 .flex-article h2 {
     font-size: 30px;
     font-weight: bold;
@@ -124,6 +138,11 @@ body {
 .flex-article img {
     width: 100%;
     display: block;
+}
+
+.work-section {
+    display: flex;
+    border: 2px solid black;
 }
 
 .flex-footer {

@@ -196,5 +196,14 @@ footer h2 {
     .flex-article img {
         margin-bottom: 250px;
     }
+
+    .flex-header nav ul li a {
+        font-size: 5vw;
+        
+    }
+
+    .flex-header nav ul li {
+        margin: 20px;
+    }
 }
 

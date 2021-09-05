@@ -24,33 +24,31 @@
         <li>
             <a href="#contact-me">Contact Me</a>
         </li>
-        <li>
-            <a href="#">Fourth List Element</a>
-        </li>
     </ul>
     </nav>
 </header>
 <main class="flex-main">
-    <section class="flex-nav">
-        
-        <h2>About Me</h2>
-        <h2>My Work</h2>
-        <h2>Contact Me</h2>
-    </section>
+    
 
     <!-- I made this section tag with class content to flex wrap vertically for about me info, works, and contact me -->
     <section class="content">
         <!-- Added this about me div tag -->
         <div class="flex-article">
-            <section class="about-me">
-            <h2>Christian Beam-Developer</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quis velit consequatur necessitatibus, 
-                voluptate a quae quisquam nemo laboriosam similique provident, corrupti soluta fugiat numquam facere aut dignissimos libero id.</p>
+            <section id="about-me">
+            <h2 class="section-title">About Me</h2>
+            <img src="assets/images/Profile Pic.jpg"
+            <p> Ive always been fascinated by technology and how things work. 
+                Ive spent most of my free time tinkering and learning everything I could about technology on my own, even as child.
+                I started coding in the beginning of 2021 with C# by creating an RPG game in Unity and have been hooked on coding ever since. </p>
+                <p>I then found out about the amazing Web Development world and Decided to become a Developer. 
+            I then enrolled in a Coding Bootcamp through UCF to become Full Stack Certified and am currently learning: HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, 
+            Node.js, MongoDB, MySQL, and Git. </p>
             </section>
         </div>
         <!-- The works content below put under one article tag and gave them individual div tags -->
     <article class="flex-article">
         <div>
+            <h2 class="section-title">My Work</h2>
             <h3>Run Buddy</h3>
             <h4>HTML/CSS</h4>
             <p>This is Run Buddy, a website to link potential customers to personal trainers.</p>
@@ -70,7 +68,7 @@
         <div>
             <h3>RPG Project</h3>
             <h4>C#</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <p>This is my RPG Project that I have designed in Unity. </p>
             <a href="https://beamchristian.github.io/run-buddy/" title="RPG Project">
                 <img src="./assets/images/RPG Screen Capture.png" alt="Main character standing in game world displayed"> </a>
         </div>
@@ -85,8 +83,8 @@
     </article>
 
     <article class="flex-article">
-        <section class="contact-me">
-            <h2>Contact Me</h2>
+        <section id="contact-me">
+            <h2 class="section-title">Contact Me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus qui.
                 Quae dicta nesciunt autem similique illum quas, voluptatum molestiae repellat veritatis non
                 dolore

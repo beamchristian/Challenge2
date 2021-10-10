@@ -8,11 +8,10 @@ This projects function is to display my professional portfolio in a nice and org
 - About Me
 - My Work
 - Contact Me
-- Footer
 
 ## Screenshot
 
-![My Portfolio Screenshot](https://user-images.githubusercontent.com/88356270/132139947-9adfd531-6c95-4cc0-b6b9-691a006dbc3b.png)
+![screencapture-127-0-0-1-5500-index-html-2021-10-10-14_55_12resize](https://user-images.githubusercontent.com/88356270/136709570-0614ab98-23a3-41f3-9648-7f600177df29.png)
 
 ## Links
 

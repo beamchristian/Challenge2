@@ -14,7 +14,6 @@ body {
   background-color: #283747;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  flex-wrap: wrap;
   padding-left: 3rem;
   padding-right: 3rem;
   border: 3px solid black;
@@ -23,9 +22,9 @@ body {
 
 .flex-header h1 {
   font-weight: bold;
-  font-size: 3rem;
   color: #c6d9ec;
   text-shadow: 0 0 10px rgba(112, 128, 144, 0.3);
+  margin-bottom: 1rem;
 }
 
 .flex-header a {
@@ -33,21 +32,16 @@ body {
   color: #c6d9ec;
 }
 
-.flex-header nav {
-  margin: 7px 0;
-}
-
 .flex-header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: right;
   list-style: none;
+  justify-content: center;
 }
 
 .flex-header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -103,7 +97,6 @@ body {
 }
 
 .section-title {
-  font-size: 50px;
   font-weight: bold;
   text-shadow: rgb(198, 217, 236, 0.8);
   margin-bottom: 1rem;
@@ -124,8 +117,11 @@ body {
 }
 
 .article-style p {
-  font-size: 25px;
   margin-bottom: 1rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
 }
 
 #contact-me h2 {
@@ -138,5 +134,24 @@ body {
   color: inherit;
 }
 
-@media screen {
+.featured-project img {
+  width: 50%;
+}
+
+.secondary-project img {
+  width: 30%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .article-style p {
+    width: 100%;
+  }
+
+  .featured-project img {
+    width: 80%;
+  }
+
+  .secondary-project img {
+    width: 60%;
+  }
 }

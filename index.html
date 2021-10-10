@@ -6,11 +6,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Christian Beam's Portfolio</title>
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
 <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-<header class="flex-header">
+<section class="hero flex-header">
     <h1>My Portfolio</h1>
     <nav>
     <!-- Unordered list element -->
@@ -26,14 +30,13 @@
         </li>
     </ul>
     </nav>
-</header>
-<main class="flex-main">
+</section>
     
 
     <!-- I made this section tag with class content to flex wrap vertically for about me info, works, and contact me -->
-    <section class="content">
+    <div class="card article-style">
         <!-- Added this about me div tag -->
-        <div class="flex-article">
+        <div class="card-content">
             <section id="about-me">
             <h2 class="section-title">About Me</h2>
             <h3>Christian Beam - Developer</h3>
@@ -44,12 +47,12 @@
             <p>I then found out about the amazing Web Development world and Decided to become a Developer. 
             I then enrolled in a Coding Bootcamp through UCF to become Full Stack Certified and am currently learning: HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, 
             Node.js, MongoDB, MySQL, and Git. </p>
-            </section>
+            </div>
         </div>
         <!-- The works content below put under one article tag and gave them individual div tags -->
-    <article class="flex-article">
+    <div class="card article-style">
         <div id="work"></div>
-        <div>
+        <div class="card-content">
             <h2 class="section-title">My Work</h2>
             <h3>Run Buddy</h3>
             <h4>HTML/CSS</h4>
@@ -82,9 +85,10 @@
                 <a href="https://via.placeholder.com/250" target="_blank" title="Project 4">
                     <img src="https://via.placeholder.com/250" alt="image placeholder"> </a>
         </div>
-    </article>
+    </div>
 
-    <article class="flex-article">
+    <div class="card article-style">
+        <div class="card-content">
         <section id="contact-me">
             <h2 class="section-title">Contact Me</h2>
             <h3>941-416-6424</h3>
@@ -92,14 +96,9 @@
             <h3><a href="https://github.com/beamchristian" target="_blank">GitHub</h3></a>
             <h3><a href="https://www.linkedin.com/in/christian-beam-64b5b5a0/" target="_blank">LinkedIn</h3></a>
         </section>
-    </article>
+        </div>
+    </div>
 </section>
-</main>
-<!-- My changes ends. -->
-​
-<footer class="flex-footer">
-    <h2>Made By Christian Beam</h2>
-</footer>
 </body>
 ​
 

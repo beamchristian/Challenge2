@@ -17,6 +17,7 @@ This projects function is to display my professional portfolio in a nice and org
 
 - [Repo](https://github.com/beamchristian/challenge2 'challenge1 repo')
 - [Bugs](https://github.com/beamchristian/challenge2/issues 'Issues Page')
+- [Deployment](https://beamchristian.github.io/my-portfolio/ 'Deployment')
 
 ## This Project Was Built With
 
